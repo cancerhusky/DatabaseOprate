@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>用户登录</title>
+*{margin:0;padding:0;}
+
+.bg{
+    background:url("../images/ending.jpg");
+    height:487px;
+    width:650px;
+    margin:150px auto;
+}
+
+
+.bg .name{
+    background:url("../images/input.jpg") repeat-x;
+    width:201px;
+    height:31px;
+    position:relative;
+    top:217px;
+    left:240px;
+}
+
+
+.bg .name input{
+    width:201px;
+    height:31px;
+    background:none;
+    border:0;
+    outline:none;
+}
+
+
+.bg .password{
+    background:url("../images/input.jpg") repeat-x;
+    width:201px;
+    height:31px;
+    position:relative;
+    top:229px;
+    left:240px;
+}
+
+
+.bg .password input{
+    width:201px;
+    height:31px;
+    background:none;
+    border:0;
+    outline:none;
+}
+
+
+.bg .enter{
+    width:228px;
+    height:33px;
+    position:relative;
+    top:243px;
+    left:213px;
+}
+
+
+.bg .enter input{
+    width:228px;
+    height:33px;
+    background:none;
+    border:0;
+    outline:none;
+}
+.bg div{
+    width:40px;
+    height:20px;
+    position:relative;
+    top:297px;
+    left:305px;
+}
+
+
+.bg div a{
+    color:#2EA02C;
+    text-decoration:none;
+}
+.bg div a:hover{
+    color:#F50303;
+}
+</head>
+<body style="background:url('images/bg.jpg');">
+    <div id="bg">
+        <form method="get" action="http://localhost:8887/index.html">
+            <div class="name"><input type="text" name="name" value=" "></div>
+            <div class="password"><input type="password" name="password" value=""></div>
+                 <div class="enter"><input type="submit" value=""></div>
+        </form>
+        <div><a href="file:///E:/html+css/数据库模拟用户注册/index.html" target="block">注册</a></div>
+    </div>
+</body>
+
+</html>
